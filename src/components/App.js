@@ -3,7 +3,7 @@ import '../styles/App.css';
 
 const App = () => {
   // write your code here 
-  const [counter, setCounter] = useState(0)
+   const [counter, setCounter] = useState(0)
 
   var changeCounter = (e) => {
     if (e.key === "Enter") {
